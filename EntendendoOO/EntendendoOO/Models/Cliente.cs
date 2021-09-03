@@ -4,9 +4,8 @@ using System.Text;
 
 namespace EntendendoOO.Models
 {
-    public abstract class Pessoa
+    class Cliente : Pessoa
     {
-        public int Id;
-        public string Nome;
+        public bool IsMaiorDeIdade;
     }
 }

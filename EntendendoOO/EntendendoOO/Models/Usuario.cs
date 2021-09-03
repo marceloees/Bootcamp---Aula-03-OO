@@ -4,9 +4,8 @@ using System.Text;
 
 namespace EntendendoOO.Models
 {
-    public abstract class Pessoa
+    class Usuario : Pessoa
     {
-        public int Id;
-        public string Nome;
+        public DateTime? Demissao;
     }
 }

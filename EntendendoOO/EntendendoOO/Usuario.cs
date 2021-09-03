@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EntendendoOO
+namespace EntendendoOO.Models
 {
     class Usuario : Pessoa
     {
